@@ -1,0 +1,25 @@
+step 1:
+command: bluetoothctl
+
+step 2:
+put AirPods in Pairing mode: press and hold the setup button on the back of the case until the status light flashes white
+
+step 3:
+inside bluetoothctl CLI, 
+command: scan on
+
+step 4:
+wait for your airpods to appear in the list of available devices.
+note the MAC address of your airpods.
+
+step 5:
+enter below for initiating pairing,
+command: pair <MAC address>
+
+step 6:
+command: connect <MAC address>
+
+step 7:
+exit bluetoothctl,
+command: exit
+
