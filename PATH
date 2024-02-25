@@ -1,0 +1,9 @@
+export PATH=$PATH:/home/vin/anaconda3/bin:/home/vin/anaconda3/condabin    #adding new path with $PATH(previous path)
+source ~/.bashrc      #take effect immediately, or close and open again a terminal
+
+sequence of PATH loading:
+/etc/environment  #system-wide
+/etc/profile      #system-wide
+/etc/bash.bashrc  #system-wide
+~/.profile    #user
+~/.bashrc    #user
